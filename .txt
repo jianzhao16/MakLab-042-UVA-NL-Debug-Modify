@@ -1,1 +1,0 @@
-ls: cannot access 'Fluo-C2DL-MSC': No such file or directory
