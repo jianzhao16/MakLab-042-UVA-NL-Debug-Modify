@@ -25,9 +25,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< Updated upstream
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/jzhao/Documents/GitHub/MakLab-42-UVA-NL-Debug-Modify",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+=======
+    "last_opened_file_path": "C:/Users/jzhao/Documents/GitHub/MakLab-42-UVA-NL-Debug-Modify",
+    "settings.editor.selected.configurable": "reference.idesettings.debugger.python"
+>>>>>>> Stashed changes
   }
 }]]></component>
   <component name="PyConsoleOptionsProvider">
@@ -90,11 +95,14 @@
           <line>71</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+<<<<<<< Updated upstream
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/siam_track.py</url>
           <line>28</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+=======
+>>>>>>> Stashed changes
       </breakpoints>
     </breakpoint-manager>
   </component>
