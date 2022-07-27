@@ -1,0 +1,31 @@
+
+
+
+pycharm (UI)
+
+ C:\Users\jzhao\Documents\app\conda3\bin\conda create --name myenv
+
+
+
+
+
+ C:\Users\jzhao\Documents\app\conda3\condabin\conda install -y -n UVA-NL-win10 opencv
+ C:\Users\jzhao\Documents\app\conda3\condabin\conda install -y -n UVA-NL-win10 imageio
+ C:\Users\jzhao\Documents\app\conda3\condabin\conda install -y -n UVA-NL-win10 keras
+ C:\Users\jzhao\Documents\app\conda3\condabin\conda install -y -n UVA-NL-win10 scikit-image
+ C:\Users\jzhao\Documents\app\conda3\condabin\conda install -y -n UVA-NL-win10 tensorflow
+ C:\Users\jzhao\Documents\app\conda3\condabin\conda install -y -n UVA-NL-win10 tensorflow-base
+ C:\Users\jzhao\Documents\app\conda3\condabin\conda install -y -n UVA-NL-win10 tensorboard
+ C:\Users\jzhao\Documents\app\conda3\condabin\conda install -y -n UVA-NL-win10 -c pytorch torchvision cudatoolkit=11.0 pytorch
+
+
+ 
+
+ C:\Users\jzhao\Documents\app\conda3\envs\UVA-NL-win10\Scripts\pip install tqdm
+ C:\Users\jzhao\Documents\app\conda3\envs\UVA-NL-win10\Scripts\pip install got10k
+
+ C:\Users\jzhao\Documents\app\conda3\envs\UVA-NL-win10\python siam_track.py --dataset_path ../DIC-C2DH-HeLa --sequence 01 -cpu
+ C:\Users\jzhao\Documents\app\conda3\envs\UVA-NL-win10\python -u siam_track.py --dataset_path="../DIC-C2DH-HeLa" --sequence=1 --siamese_path="model_weights/siam_model.pth" -get_initial_seg_from_lux
+
+*****************************************************************************************************************************
+
