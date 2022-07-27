@@ -10,8 +10,10 @@ import shutil
 import glob
 import warnings
 from initial_seg_lux import predict_dataset, predict_dataset_2
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
+
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 def warn(*args, **kwargs):
     pass
