@@ -1,0 +1,179 @@
+
+ssh jian@192.168.166.30 -p 1910 -Y
+
+cd /home/jian/Documents/myworkspace/MakLab-42-UVA-NL-Debug-Modify
+
+ (data files is the same level with UVA-NL directory)
+
+*****************************************************************************************************************************
+
+System: UVA-NL-CentOS7hm (Gui)
+
+~/anaconda3/bin/conda env list
+~/anaconda3/bin/conda create -n UVA-NL-CentOS7hm python=3.7
+~/anaconda3/bin/conda activate UVA-NL-CentOS7hm
+
+PyCharm Install (It will auto install more related packages)
+
+~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm tensorboard=2.4.1
+~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm tensorflow-gpu=2.4.1
+~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm tensorflow-gpu-base=2.4.1
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm matplotlib=3.5.1
+~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm pytorch-gpu=1.3.1
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm opencv=3.4.2
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm keras=2.3.1
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm scikit-image=0.19.2
+
+~/anaconda3/envs/UVA-NL-CentOS7hm/bin/pip install tqdm
+~/anaconda3/envs/UVA-NL-CentOS7hm/bin/pip install got10k
+
+
+ ~/anaconda3/bin/python -u siam_track.py --dataset_path ../DIC-C2DH-HeLa --sequence 1  --siamese_path="model_weights/siam_model.pth" -get_initial_seg_from_lux
+ ~/anaconda3/bin/python -u siam_track.py --dataset_path ../DIC-C2DH-HeLa --sequence 1 -cpu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm -c pytorch torchvision cudatoolkit=11.0 pytorch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~/anaconda3/envs/UVA-NL-CentOS7hm/bin/pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+
+
+
+
+
+
+
+
+
+~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm -c pytorch torchvision cudatoolkit=11.0 pytorch
+
+ 
+
+~/anaconda3/bin/conda remove --name myenv --all
+
+
+~/anaconda3/envs/UVA-NL-CentOS7hm/bin/pip install tqdm
+~/anaconda3/envs/UVA-NL-CentOS7hm/bin/pip install got10k
+
+~/anaconda3/envs/UVA-NL-CentOS7hm/bin/pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+
+
+
+
+
+
+
+~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm scipy
+~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm opencv
+~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm imageio
+~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm keras
+~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm scikit-image
+  #  Run
+
+ ~/anaconda3/bin/python siam_track.py --dataset_path ../DIC-C2DH-HeLa --sequence 01  --siamese_path="model_weights/siam_model.pth" -get_initial_seg_from_lux
+ ~/anaconda3/bin/python -u siam_track.py --dataset_path ../DIC-C2DH-HeLa --sequence 01 -cpu
+ 
+
+
+
+
+mkdir myUVA-NL-CentOS7hm
+cd myUVA-NL-CentOS7hm
+conda create --prefix ./envs jupyterlab=3.2 matplotlib=3.5 numpy=1.21
+
+
+
+conda remove --name myenv --all
+
+
+
+************************************	Win10 ******************************************
+
+
+
+
+ ~/anaconda3/bin/conda create -n UVA-NL-CentOS7hm python=3.7
+
+ #very important
+ conda activate UVA-NL-CentOS7hm
+
+ ~/anaconda3/bin/conda activate UVA-NL-CentOS7hm
+
+
+pycharm (UI)
+
+ 
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm tensorflow-gpu=2.3.0
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm tensorflow-gpu-base=2.3.0
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm tensorboard=2.3.0
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm pytorch=1.10.2
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm pyopencv=3.4.2
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm pillow=9.0.1
+
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm numpy=1.21.5
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm imageio=2.9.0
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm keras=2.3.1
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm matplotlib=3.5.1
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm scipy=1.7.3
+ ~/anaconda3/bin/conda install -y -n UVA-NL-CentOS7hm scikit-image=0.19.2
+
+ # Torch
+ ~/anaconda3/envs/UVA-NL-CentOS7hm/bin/pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+
+
+ #very important
+ conda activate UVA-NL-CentOS7hm
+ ~/anaconda3/envs/UVA-NL-CentOS7hm/bin/pip install gensim config --global http.sslVerify false
+ ~/anaconda3/envs/UVA-NL-CentOS7hm/bin/pip config set global.trusted-host "pypi.org files.pythonhosted.org pypi.python.org" --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org
+
+ Download tdqm and got10k package to local computer, install locally
+ ~/anaconda3/bin/conda activate UVA-NL-CentOS7hm
+ ~/anaconda3/envs/UVA-NL-CentOS7hm/bin/pip install -e C:\Users\jzhao\Downloads\soft\tqdm-4.64.0
+ ~/anaconda3/envs/UVA-NL-CentOS7hm/bin/pip install -e C:\Users\jzhao\Downloads\soft\got10k-013
+
+~/anaconda3/envs/UVA-NL-CentOS7hm/bin/pip install pyqt5-tools
+ 
+
+ # Run
+ ~/anaconda3/bin/python siam_track.py --dataset_path ../DIC-C2DH-HeLa --sequence 01 -cpu
+ ~/anaconda3/bin/python -u siam_track.py --dataset_path="../DIC-C2DH-HeLa" --sequence=1 --siamese_path="model_weights/siam_model.pth" -get_initial_seg_from_lux
+
+*****************************************************************************************************************************
+

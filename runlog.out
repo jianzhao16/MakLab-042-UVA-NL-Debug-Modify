@@ -1,8 +1,1 @@
-Using TensorFlow backend.
-Initialising Tracker and Segmentation network
-Loading images from ../BF-C2DL-HSC/01/*.tif
-Getting segmentation
-/home/users/jzhao/app/anaconda3/envs/UVA-NL/lib/python3.7/site-packages/skimage/_shared/utils.py:348: UserWarning: The probability range is outside [0, 1] given the tolerance `prob_tol`. Consider decreasing `beta` and/or decreasing `tol`.
-  return func(*args, **kwargs)
-/home/users/jzhao/app/anaconda3/envs/UVA-NL/lib/python3.7/site-packages/skimage/segmentation/random_walker_segmentation.py:187: RuntimeWarning: divide by zero encountered in true_divide
-  M = sparse.diags(1.0 / lap_sparse.diagonal())
+./Run-DIC-C2DH-HeLa-01.sh: line 3: /home/users/jzhao/.conda/envs/py37/bin/python: No such file or directory
